@@ -1,0 +1,20 @@
+.login {
+    min-height: 100vh;
+  }
+  
+  .bg-image {
+    // background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
+    background-image: url('https://media.istockphoto.com/id/482500639/video/robot-arm-welding-machine-working-in-factories.jpg?b=1&s=640x640&k=20&c=itOd0Ws5JXckZ_9ceFSyJ8ICqgnAe4Eht3wVRNXTO6A=');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-heading {
+    font-weight: 300;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }

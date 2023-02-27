@@ -1,0 +1,181 @@
+<c-row>
+  <c-col xs="12">
+    <c-card class="mb-4">
+      <c-card-header>
+        <strong>Plant Details</strong>
+      </c-card-header>
+      <c-card-body>
+        <p class="text-medium-emphasis small">
+          Fill the form to save the <b>Plant</b> details.
+        </p>
+        <form>
+          <c-row class="mb-3">
+            <label cLabel="col" cCol [sm]="2" for="txtCompanyName">
+              Company Name
+            </label>
+            <c-col [sm]="6">
+              <input cFormControl id="txtCompanyName" type="text" />
+            </c-col>
+          </c-row>
+
+          <c-row class="mb-3">
+            <label cLabel="col" cCol [sm]="2" for="txtAddress">
+              Address
+            </label>
+            <c-col [sm]="6">
+              <textarea cFormControl id="txtAddress" rows="2"></textarea>
+            </c-col>
+            <c-col [sm]="3" style="background-color: #EAEDEF;">
+              Select options for sending email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input cFormCheckInput id="checkOne" type="checkbox" /> Outlook
+              <input cFormCheckInput id="checkOne" type="checkbox" /> Internet
+            </c-col>
+          </c-row>
+
+          <c-row class="mb-3">
+            <c-card-header>
+              <strong>Shift Details</strong>
+            </c-card-header>
+          </c-row>
+
+          <c-row class="mb-12">
+            <label cLabel="col" cCol [sm]="2" for="txtAddress">
+              Shift 1
+            </label>
+            <c-col [sm]="2">
+              <input class="form-control" type="text" id="fromdatetime" />
+            </c-col>To
+            <c-col [sm]="2">
+              <input class="form-control" type="text" id="todatetime" />
+            </c-col>
+            <c-col [sm]="1">
+              <input class="form-control" type="text" id="todatetime" />
+            </c-col>
+            <c-col [sm]="2">
+              Break Time In Minutes
+            </c-col>
+          </c-row>
+          <br>
+          <c-row class="mb-12">
+            <label cLabel="col" cCol [sm]="2" for="txtAddress">
+              Shift 2
+            </label>
+            <c-col [sm]="2">
+              <input class="form-control" type="text" id="fromdatetime" />
+            </c-col>To
+            <c-col [sm]="2">
+              <input class="form-control" type="text" id="todatetime" />
+            </c-col>
+            <c-col [sm]="1">
+              <input class="form-control" type="text" id="todatetime" />
+            </c-col>
+            <c-col [sm]="2">
+              Break Time In Minutes
+            </c-col>
+            <c-col [sm]="2" style="background-color:#EAEDEF;"> Wickly Off :
+              <select aria-label="Default select example">
+                <option>Sunday</option>
+              </select>
+            </c-col>
+          </c-row>
+          <br>
+          <c-row class="mb-12">
+            <label cLabel="col" cCol [sm]="2" for="txtAddress">
+              Shift 3
+            </label>
+            <c-col [sm]="2">
+              <input class="form-control" type="text" id="fromdatetime" />
+            </c-col>To
+            <c-col [sm]="2">
+              <input class="form-control" type="text" id="todatetime" />
+            </c-col>
+            <c-col [sm]="1">
+              <input class="form-control" type="text" id="todatetime" />
+            </c-col>
+            <c-col [sm]="2">
+              Break Time In Minutes
+            </c-col>
+
+
+          </c-row>
+
+          <c-row class="mb-3">
+            <c-card-header>
+              <strong>Supervisor Details</strong>
+            </c-card-header>
+          </c-row>
+
+          <c-row class="mb-2">
+            <c-col [sm]="2">
+              Name<input class="form-control" type="text" id="name" />
+            </c-col>
+            <c-col [sm]="2">
+              Email <input class="form-control" type="text" id="email" />
+            </c-col>
+            <c-col [sm]="2">
+              Mobile<input class="form-control" type="text" id="mobile" />
+            </c-col>
+            <c-col [sm]="2">
+              SMS After/Minutes<input class="form-control" type="text" id="smsafterminutes" />
+            </c-col>
+            <c-col [sm]="2">
+              Groups<input class="form-control" type="text" id="groups" />
+            </c-col>
+            <c-col [sm]="2" style="margin-top: auto;">
+              <input cFormCheckInput id="checkOne" type="checkbox" /> Subscribe
+            </c-col>
+          </c-row>
+
+          <c-row class="mb-2">
+            <c-col [sm]="2">
+              Name<input class="form-control" type="text" id="name" />
+            </c-col>
+            <c-col [sm]="2">
+              Email <input class="form-control" type="text" id="email" />
+            </c-col>
+            <c-col [sm]="2">
+              Mobile<input class="form-control" type="text" id="mobile" />
+            </c-col>
+            <c-col [sm]="2">
+              SMS After/Minutes<input class="form-control" type="text" id="smsafterminutes" />
+            </c-col>
+            <c-col [sm]="2">
+              Groups<input class="form-control" type="text" id="groups" />
+            </c-col>
+            <c-col [sm]="2" style="margin-top: auto;">
+              <input cFormCheckInput id="checkOne" type="checkbox" /> Subscribe
+            </c-col>
+          </c-row>
+
+          <c-row class="mb-2">
+            <c-col [sm]="2">
+              Name<input class="form-control" type="text" id="name" />
+            </c-col>
+            <c-col [sm]="2">
+              Email <input class="form-control" type="text" id="email" />
+            </c-col>
+            <c-col [sm]="2">
+              Mobile<input class="form-control" type="text" id="mobile" />
+            </c-col>
+            <c-col [sm]="2">
+              SMS After/Minutes<input class="form-control" type="text" id="smsafterminutes" />
+            </c-col>
+            <c-col [sm]="2">
+              Groups<input class="form-control" type="text" id="groups" />
+            </c-col>
+            <c-col [sm]="2" style="margin-top: auto;">
+              <input cFormCheckInput id="checkOne" type="checkbox" /> Subscribe
+            </c-col>
+          </c-row>
+
+          <c-row class="mb-12">
+            <c-col [sm]="2" class="offset-sm-12">
+              <button cButton type="submit">Save</button>
+            </c-col>
+          </c-row>
+
+        </form>
+      </c-card-body>
+    </c-card>
+  </c-col>
+</c-row>

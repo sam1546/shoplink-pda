@@ -1,0 +1,39 @@
+<c-row ngPreserveWhitespaces> 
+  <c-col xs="12">
+    <c-card class="mb-4">
+      <c-card-header>
+        <strong>Production Report</strong>
+      </c-card-header>
+      <c-card-body>
+        <p class="text-medium-emphasis small">
+          Fill the below details to fetch the <b>Production Report</b>.
+        </p>
+        <form>
+          <c-row class="mb-3">
+          <label cLabel="col" cCol [sm]="2" for="inputName">
+          Name 1
+          </label>
+          <c-col [sm]="10">
+          <input cFormControl id="inputEmail3" type="text" />
+          </c-col>
+          </c-row>
+          <c-row class="mb-3">
+          <label cLabel="col" cCol [sm]="2" for="inputName">
+          Name 2
+          </label>
+          <c-col [sm]="10">
+          <input cFormControl id="inputName" type="text" />
+          </c-col>
+          </c-row> 
+          <c-row class="mb-3">
+          <c-col [sm]="10" class="offset-sm-2">
+          <c-form-check>  
+          </c-form-check>
+          </c-col>
+          </c-row>
+          <button cButton type="submit">Save</button>
+          </form> 
+      </c-card-body>
+    </c-card> 
+  </c-col>
+</c-row>

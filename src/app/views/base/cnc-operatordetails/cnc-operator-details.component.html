@@ -1,0 +1,43 @@
+<div class="fade-in">
+  <c-row ngPreserveWhitespaces> 
+    <c-col xs="12">
+      <c-card class="mb-4">
+        <c-card-header>
+          <strong>CNC Operator Details</strong>
+        </c-card-header>
+        <c-card-body>
+          <p class="text-medium-emphasis small">
+            Fill the form to save the <b>CNC Operators</b> details.
+          </p>
+          <form>
+            <c-row class="mb-3">
+            <label cLabel="col" cCol [sm]="2" for="txtoperatorID">
+            Operator ID
+            </label>
+            <c-col [sm]="2">
+            <input cFormControl id="txtoperatorID" type="text" />
+            </c-col>
+            </c-row>
+
+            <c-row class="mb-3">
+            <label cLabel="col" cCol [sm]="2" for="txtOperatorNAme">
+           Operator Name
+            </label>
+            <c-col [sm]="5">
+            <input cFormControl id="txtOperatorNAme" type="text" />
+            </c-col>
+            </c-row> 
+
+            <c-row class="mb-3">
+            <c-col [sm]="10" class="offset-sm-2">
+            <c-form-check>  
+            </c-form-check>
+            </c-col>
+            </c-row>
+            <button cButton type="submit">Save</button>
+            </form>
+        </c-card-body>
+      </c-card> 
+    </c-col>
+  </c-row>
+</div>

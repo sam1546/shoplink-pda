@@ -1,0 +1,53 @@
+<c-row ngPreserveWhitespaces> 
+  <c-col xs="12">
+    <c-card class="mb-4">
+      <c-card-header>
+        <strong>DownTime Code Entry</strong>
+      </c-card-header>
+      <c-card-body>
+        <p class="text-medium-emphasis small">
+          Fill the form to save the <b>DownTime Code Entry</b> details.
+        </p>
+        <form>
+          <c-row class="mb-3">
+          <label cLabel="col" cCol [sm]="2" for="txtCodeNumber">
+          Code Number
+          </label>
+          <c-col [sm]="6">
+          <input cFormControl id="txtCodeNumber" type="text" />
+          </c-col>
+          </c-row>
+
+          <c-row class="mb-3">
+          <label cLabel="col" cCol [sm]="2" for="txtDescription">
+          Description
+          </label>
+          <c-col [sm]="6">
+          <input cFormControl id="txtDescription" type="text" />
+          </c-col>
+          </c-row> 
+
+          <c-row class="mb-3">
+            <label cLabel="col" cCol [sm]="2" for="txtDescription">
+            Down Code Category
+            </label>
+            <c-col [sm]="10">
+              <input cFormCheckInput id="checkOne" type="checkbox" /> A
+              <input cFormCheckInput id="checkOne" type="checkbox" /> B
+            </c-col>
+          </c-row> 
+  
+
+          <c-row class="mb-3">
+          <c-col [sm]="10" class="offset-sm-2">
+          <c-form-check>  
+          </c-form-check>
+          </c-col>
+          </c-row>
+
+          <button cButton type="submit">Save</button>
+          </form> 
+      </c-card-body>
+    </c-card> 
+  </c-col>
+</c-row>

@@ -1,0 +1,57 @@
+<div class="fade-in">
+  <c-row ngPreserveWhitespaces> 
+    <c-col xs="12">
+      <c-card class="mb-4">
+        <c-card-header>
+          <strong>Machine Entry Form</strong>
+        </c-card-header>
+        <c-card-body>
+          <p class="text-medium-emphasis small">
+            Fill the form to save the <b>Machine</b> details.
+          </p>
+          <form>
+            <c-row class="mb-3">
+            <label cLabel="col" cCol [sm]="2" for="selectGroup">
+            Select Group
+            </label>
+            <c-col [sm]="4">
+              <select aria-label="--Select Group--" cSelect>
+                <option>--Select Group--</option>
+              </select>
+            </c-col>
+            </c-row>
+
+            <c-row class="mb-3">
+            <label cLabel="col" cCol [sm]="2" for="txtMachineName">
+            Machine Name
+            </label>
+            <c-col [sm]="4">
+            <input cFormControl id="txtMachineName" type="text" />
+            </c-col>
+            </c-row> 
+
+            <c-row class="mb-3">
+              <label cLabel="col" cCol [sm]="2" for="txtLineNumber">
+              Line Number
+              </label>
+              <c-col [sm]="4">
+                <input cFormControl id="txtLineNumber" type="text" />
+                <input cFormCheckInput id="checkOne" type="checkbox" /> PLC
+                <input cFormCheckInput id="checkTwo" type="checkbox" /> HMI
+              </c-col>
+              </c-row> 
+
+            <c-row class="mb-3">
+            <c-col [sm]="10" class="offset-sm-2">
+            <c-form-check>  
+            </c-form-check>
+            </c-col>
+            </c-row>
+            <button cButton type="submit">Save</button>
+            </form>
+        </c-card-body>
+      </c-card> 
+    </c-col>
+  </c-row>
+</div>
+ 

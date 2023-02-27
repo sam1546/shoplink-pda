@@ -1,0 +1,84 @@
+<c-row ngPreserveWhitespaces> 
+  <c-col xs="12">
+    <c-card class="mb-4">
+      <c-card-header>
+        <strong>APQ Report</strong>
+      </c-card-header>
+      <c-card-body>
+        <p class="text-medium-emphasis small">
+          Fill the form to fetch the <b>APQ</b> report.
+        </p>
+        <form>
+          <c-row class="mb-3">
+          <label cLabel="col" cCol [sm]="2" for="inputName">
+          Name 1
+          </label>
+          <c-col [sm]="10">
+          <input cFormControl id="inputEmail3" type="text" />
+          </c-col>
+          </c-row>
+          <c-row class="mb-3">
+          <label cLabel="col" cCol [sm]="2" for="inputName">
+          Name 2
+          </label>
+          <c-col [sm]="10">
+          <input cFormControl id="inputName" type="text" />
+          </c-col>
+          </c-row> 
+          <c-row class="mb-3">
+          <c-col [sm]="10" class="offset-sm-2">
+          <c-form-check>  
+          </c-form-check>
+          </c-col>
+          </c-row>
+          <button cButton type="submit">Save</button>
+          </form> 
+      </c-card-body>
+    </c-card> 
+  </c-col>
+</c-row>
+
+
+
+<form cForm class="row g-3">
+  <c-col [md]="6">
+  <label cLabel for="inputEmail4">Email</label>
+  <input cFormControl id="inputEmail4" type="email" />
+  </c-col>
+  <c-col [md]="6">
+  <label cLabel for="inputPassword4">Password</label>
+  <input cFormControl id="inputPassword4" type="password" />
+  </c-col>
+  <c-col [xs]="12">
+  <label cLabel for="inputAddress">Address</label>
+  <input cFormControl id="inputAddress" placeholder="1234 Main St" />
+  </c-col>
+  <c-col [xs]="12">
+  <label cLabel for="inputAddress2">Address 2</label>
+  <input cFormControl id="inputAddress2" placeholder="Apartment, studio, or floor" />
+  </c-col>
+  <c-col [md]="6">
+  <label cLabel for="inputCity">City</label>
+  <input cFormControl id="inputCity" />
+  </c-col>
+  <c-col [md]="4">
+  <label cLabel for="inputState">State</label>
+  <select cSelect id="inputState">
+  <option>Choose...</option>
+  <option>...</option>
+  </select>
+  </c-col>
+  <c-col [md]="2">
+  <label cLabel for="inputZip">Zip</label>
+  <input cFormControl id="inputZip" />
+  </c-col>
+  <c-col [xs]="12">
+  <c-form-check>
+  <input cFormCheckInput id="gridCheck" name="gridCheck" type="checkbox" />
+  <label cFormCheckLabel for="gridCheck">Check me out</label>
+  </c-form-check>
+  </c-col>
+  <c-col [xs]="12">
+  <button cButton type="submit">Sign in</button>
+  </c-col>
+  </form>
